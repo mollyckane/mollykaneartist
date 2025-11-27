@@ -1,0 +1,23 @@
+:root{
+    --heading-text-primary: rgb(210, 76, 55);
+    --heading-text-secondary: rgb(210, 149, 131);
+}
+
+body {
+    height: 100vh;
+}
+
+.nav-link {
+    color: var(--heading-text-secondary) !important;
+}
+
+.navbar-brand {
+    color: var(--heading-text-primary) !important;
+}
+.header-custom{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
